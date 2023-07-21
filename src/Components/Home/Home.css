@@ -1,0 +1,21 @@
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-home-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 93%;
+}
+
+.home-row{
+    display:flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 32%;
+}

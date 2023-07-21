@@ -1,0 +1,96 @@
+.Navbar {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0; 
+    /* Stick the navbar to the top of the viewport */
+    z-index: 100; 
+    /* Ensure the navbar appears above other elements */
+}
+
+.logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.search{
+    display: flex;
+    flex:1;
+}
+
+.search-logo{
+    height: 20px;
+    background-color:orange;
+    padding: 2px;
+
+}
+
+.search-input{
+    height: 16px;
+    padding: 4px;
+    width: 100%;
+    border:none;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-link{
+    color:white;
+    text-decoration: none;
+}
+
+.menu-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-option-line-one{
+    font-size: 10px;
+
+}
+
+.menu-option-line-two{
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.cart-logo{
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.cart-cointainer{
+    position:"relative";
+    cursor:"pointer";
+    text-decoration: none;
+
+}
+.cart-cointainer span{
+    text-decoration: none;
+}
+
+
+.cart-count{
+    background-color: orange;
+    border-radius:50%;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: -15px;
+    margin-top: -1000px;
+    
+}
+
+
