@@ -26,10 +26,13 @@ export default function Navbar() {
 
             {/* menu bar */}
             <div className="menu">
-                <Link to="" className="menu-link">
+                <Link to="/login" className="menu-link">
                     <div className="menu-option">
-                    <span className="menu-option-line-one">Hello User</span>
+     
+                        <span className="menu-option-line-one">Hello User</span>
                     <span className="menu-option-line-two">Signin </span>
+
+
                     </div>
                 </Link>
 
