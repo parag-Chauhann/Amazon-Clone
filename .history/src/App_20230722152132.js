@@ -49,7 +49,7 @@ function App(){
          {path:"/home", element:<Home />},
          {path:"/checkout", element:<Checkout />}
       ]},
-      {path:"/", element:<Login />},
+      {path:"/login", element:<Login />},
       {path:"/signup", element:<SignUp />},
       {path:"/terms&condition", element:<TermsAndCondition />},
 

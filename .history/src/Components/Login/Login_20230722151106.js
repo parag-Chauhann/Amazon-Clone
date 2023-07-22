@@ -20,7 +20,7 @@ function Login() {
 
     signInWithEmailAndPassword(auth,emailValue,passwordValue).then(data => {
       console.log(data)
-      navigate("/home");
+      navigate("/");
     }).catch(err => {
       alert(err.code)
     })

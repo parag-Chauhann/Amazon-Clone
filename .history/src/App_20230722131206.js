@@ -45,11 +45,11 @@ function App(){
    console.log(user);
 
    const router = createBrowserRouter([
-      {path:"/home", element:<Navbar />, children:[
-         {path:"/home", element:<Home />},
+      {path:"/", element:<Navbar />, children:[
+         {path:"/", element:<Home />},
          {path:"/checkout", element:<Checkout />}
       ]},
-      {path:"/", element:<Login />},
+      {path:"/login", element:<Login />},
       {path:"/signup", element:<SignUp />},
       {path:"/terms&condition", element:<TermsAndCondition />},
 
