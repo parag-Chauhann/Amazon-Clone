@@ -9,6 +9,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -26,7 +28,7 @@
     width:98%
 }
 
-.login-container FORM h5{
+.login-container form h5{
     margin-bottom: 5px;
 }
 
@@ -34,10 +36,9 @@
 
     margin-top: 15px;
     font: 12px;
-
 }
 .login-logo{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     height: 80px;
     width: 120px;
@@ -52,6 +53,7 @@ width: 100%;
 border: 1px solid;
 margin-top: 10px;
 border-color: #a88734 #9c7e31 #846a29;
+padding: 5px;
 
 }
 
@@ -61,17 +63,20 @@ border-color: #a88734 #9c7e31 #846a29;
     
     }
 
-.login-register-btn{
-    border-radius: 2px;
-    height: 30px;
-    width: 100%;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: darkgray;
-    }
-    
-.login-register-btn:hover{
-    cursor: pointer;
-}
 
-    
+    .login-register-btn{
+        border-radius: 2px;
+        height: 30px;
+        width: 100%;
+        border: 1px solid;
+        margin-top: 10px;
+        background-color:lightgray;
+        padding: 5px;
+        
+        }
+        
+        .login-register-btn:hover{
+            cursor: pointer;
+            background-color:rgb(223, 221, 221);
+            
+            }

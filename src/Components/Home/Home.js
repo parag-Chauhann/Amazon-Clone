@@ -52,21 +52,16 @@ console.log(productData)
         <CarouselImages />
 
         <div className="main-home-row">
-        {productData.map((item,i)=>{
-            return(
-                
-                <div className="home-row" key={i}>
-            <Products   title={item.title} 
-                        price={item.price}
-                        rating={item.rating}
-                        img={item.img}
-                        id={item.id}/>
-            </div>
-          
-            )
-
-            
-        })}
+        {productData.map((item) => (
+            <div className="home-row" key={item.id}>
+                <Products   title={item.title}
+                            price={item.price}
+                            rating={item.rating}
+                            img={item.img}
+                            id={item.id}
+    />
+  </div>
+))}
           </div>
       
         <Outlet />
